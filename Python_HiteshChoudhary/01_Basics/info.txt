@@ -1,0 +1,10 @@
+-> suppose we work in python shell and we opened a file in that terminal using "import".
+-> now think we updated that file and now we want to use that values(variable which also known as attribute in python)
+    for that first way is => we can re import that file or module 
+            second way => we simply close that shell and do that import thing again 
+        by using above tow way we can do sometimes but that are not correct ways bucause it might be costly sometimes
+
+    for that we can import reload from importlib and now we can use reload() method to reload our files,
+        for example we want to reloat "hello.py" so we can simply do this,
+        >>>from importlib import reload
+        >>>reload(hello)
