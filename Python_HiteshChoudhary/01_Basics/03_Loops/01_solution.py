@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------#
-#                         1. Age Group Categorization
+#                         1. Counting Positive Numbers
 #-------------------------------------------------------------------------------#
 #Problem: Given a list of numbers, count how many are positive.
 
